@@ -7,7 +7,8 @@ var DeveloperModule;
     })(AddressModule = DeveloperModule.AddressModule || (DeveloperModule.AddressModule = {}));
 })(DeveloperModule || (DeveloperModule = {}));
 /*
-※ Version 2.7.2 を使用しました。
+TypeScript：Version 2.7.2
+Node.js：v8.6.0
 
 （ビルドコマンド）
 tsc practice_typescript02.ts -t ES5 --out bundled-practice_typescript02.js
