@@ -13,7 +13,10 @@ tsc main.ts -m commonjs
 （実行コマンド）
 node main.js
 
-=======< commonjs >=======
+（実行結果）
+taguchi
+
+=======< amd >=======
 （コンパイルコマンド）
 tsc main.ts -m amd
 

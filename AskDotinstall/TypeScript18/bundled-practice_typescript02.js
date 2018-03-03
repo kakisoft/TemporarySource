@@ -1,11 +1,3 @@
-var DeveloperModule;
-(function (DeveloperModule) {
-    DeveloperModule.name = "kaki"; //exportを付けると、外部からアクセスできる
-    var AddressModule;
-    (function (AddressModule) {
-        AddressModule.zip = "222-2222";
-    })(AddressModule = DeveloperModule.AddressModule || (DeveloperModule.AddressModule = {}));
-})(DeveloperModule || (DeveloperModule = {}));
 /*
 TypeScript：Version 2.7.2
 Node.js：v8.6.0
@@ -25,29 +17,10 @@ node bundled-practice_typescript02.js
 これらは１つのファイルに共存させる事ができないのでしょうか。
 （どちらか１つをコメントアウトすると、ビルドが通る。）
 */
-//==================================
-//         内部モジュール
-//==================================
-/*
-//-------<↓↓ UserModuleと併用するとエラーが発生する ↓↓>-------
-module UserModule {
-    export var name = "yamada"; //exportを付けると、外部からアクセスできる
-    export module AddressModule { //入れ子にする事もできる
-        export var zip = "111-1111";
-    }
-}
-
+var UserModule;
+(function (UserModule) {
+    UserModule.name = "yamada";
+})(UserModule || (UserModule = {}));
 console.log(UserModule.name);
-console.log(UserModule.AddressModule.zip);
-
-import addr = UserModule.AddressModule; //エイリアス。（UserModule.Address<odule を addr でコールできるようにする）
-console.log(addr.zip);
-//-------<↑↑ここまで↑↑>-------
-*/
-//-----< 別ファイルからコール >-----
-//★↓のように、スラッシュを３つ付けたコメントの後に、importするモジュールを指定する。（同時にコンパイルする）
-/// <reference path="./modules/developers.ts" />
+/// <reference path="./developers.ts" />
 console.log(DeveloperModule.name);
-console.log(DeveloperModule.AddressModule.zip);
-var devaddr = DeveloperModule.AddressModule;
-console.log(devaddr.zip);
