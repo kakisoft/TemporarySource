@@ -1,0 +1,15 @@
+Windows 10 Home
+
+sqlite3 --version
+3.22.0 2018-01-22 18:45:57 0c55d179733b46d8d0ba4d88e01a25e10677046ee3da1d5b1581e86726f2171d
+===================================
+（実行コマンド）
+sqlite3 myapp.db < commands.sql
+
+（実行結果）
+発生場所 行:1 文字:18
++ sqlite3 myapp.db < commands.sql
++                  ~
+演算子 '<' は、今後の使用のために予約されています。
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : RedirectionNotSupported
