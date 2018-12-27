@@ -1,0 +1,36 @@
+OS：Windows10 Home
+TypeScript：Version 2.7.2
+Node.js：v8.6.0
+
+＜問い合わせ内容＞
+サンプルのソースコードをそのままコピーしましたが、
+amd形式でコンパイルした場合はエラーが発生しました。
+
+=======< commonjs >=======
+（コンパイルコマンド）
+tsc main.ts -m commonjs
+
+（実行コマンド）
+node main.js
+
+（実行結果）
+taguchi
+
+=======< amd >=======
+（コンパイルコマンド）
+tsc main.ts -m amd
+
+（実行コマンド）
+node main.js
+
+（エラーメッセージ）
+ReferenceError: define is not defined
+    at Object.<anonymous> (F:\TemporarySource\AskDotinstall\TypeScript19\main.js:2:1)
+    at Module._compile (module.js:624:30)
+    at Object.Module._extensions..js (module.js:635:10)
+    at Module.load (module.js:545:32)
+    at tryModuleLoad (module.js:508:12)
+    at Function.Module._load (module.js:500:3)
+    at Function.Module.runMain (module.js:665:10)
+    at startup (bootstrap_node.js:187:16)
+    at bootstrap_node.js:607:3
