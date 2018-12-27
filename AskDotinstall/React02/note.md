@@ -1,5 +1,5 @@
-
-
+以下、記述したソースと問い合わせ内容です。<br>
+（問い合わせ内容は「３」に記載しています。）<br>
 
 
 
@@ -11,7 +11,8 @@
 #### 挙動
 [https://kakisoft.github.io/TemporarySource/AskDotinstall/React02/sample01.html](https://kakisoft.github.io/TemporarySource/AskDotinstall/React02/sample01.html)
 
-
+#### 内容
+ドットインストール様にて記載されたサンプルソースを忠実に再現しました。
 __________________________________
 
 
@@ -22,6 +23,10 @@ __________________________________
 #### 挙動
 [https://kakisoft.github.io/TemporarySource/AskDotinstall/React02/sample02.html](https://kakisoft.github.io/TemporarySource/AskDotinstall/React02/sample02.html)
 
+#### 内容
+head に記載していた script タグの内容を、body 閉じタグ直前に持ってきたバージョン。<br>
+元々 head 記載していた内容は、上段に記述している。<br>
+こちらの記載はあまり推奨されない？
 
 __________________________________
 
@@ -33,7 +38,12 @@ __________________________________
 #### 挙動
 [https://kakisoft.github.io/TemporarySource/AskDotinstall/React02/sample03.html](https://kakisoft.github.io/TemporarySource/AskDotinstall/React02/sample03.html)
 
-
+#### 内容
+head に記載していた script タグの内容を、body 閉じタグ直前に持ってきたバージョン。<br>
+元々 head 記載していた内容を上段に記述している。<br>
+babel を末尾に記述しているので、コンパイルエラーが発生する・・・かと思いきや、正常に動いている。<br>
+エラーも特に発生していない。<br>
+どういう原理？
 __________________________________
 
 
