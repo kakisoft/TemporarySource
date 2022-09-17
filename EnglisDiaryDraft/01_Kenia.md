@@ -1,20 +1,30 @@
-![x](assets/Kenya_01.jpg)  
+**kaki**
 
-![x](assets/Kenya_02.jpg)  
+動物  
 
-![x](assets/Kenya_03.jpg)  
+![x](assets/Kenya_animal_01.jpg)  
 
-![x](assets/Kenya_04.jpg)  
+![x](assets/Kenya_animal_02.jpg)  
 
-![x](assets/Kenya_05.jpg)  
+![x](assets/Kenya_animal_03.jpg)  
 
-![x](assets/Kenya_06.jpg)  
+![x](assets/Kenya_animal_04.jpg)  
 
-![x](assets/Kenya_07.jpg)  
+![x](assets/Kenya_animal_05.jpg)  
 
-![x](assets/Kenya_08.jpg)  
 
-![x](assets/Kenya_09.jpg)  
+風景  
 
-![x](assets/Kenya_10.jpg)  
+![x](assets/Kenya_view_01.jpg)  
+
+![x](assets/Kenya_view_02.jpg)  
+
+![x](assets/Kenya_view_03.jpg)  
+
+![x](assets/Kenya_view_04.jpg)  
+
+サバンナ以外だと、こんな感じのがあった  
+
+![x](assets/Kenya_view_05.jpg)  
+
 
