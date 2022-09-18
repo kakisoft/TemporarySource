@@ -89,6 +89,7 @@ Yeah! That's right!
 
 But, when you tell them that you are a Japanese, they are very welcoming as well.  
 
+（ここまで）
 
 _____________________________________________
 
