@@ -26,11 +26,11 @@ ________________________________________________________________________________
 >酒・砂糖・みりん・・・各大さじ 1.5  
 >薄口しょうゆ・・・・・50cc  
 
-前回の[なんちゃってローストポーク](https://kaki-engine.com/try-nanchatte-roast-pork/)は準備が結構大変でしたが、今回は割とお手軽です。
+前回の[なんちゃってローストポーク](https://kaki-engine.com/try-nanchatte-roast-pork/)は準備が結構大変でしたが、今回は割とお手軽です。  
 
 ![x](assets/try-morphing-furikake-rice-01.jpg)  
 
-手羽先を焼いている間、煮汁を準備します。
+手羽先を焼いている間、煮汁を準備します。  
 ![x](assets/try-morphing-furikake-rice-02.jpg)  
 
 焼きあがったら、手羽先を煮汁に投入。  
