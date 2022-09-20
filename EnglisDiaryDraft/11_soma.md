@@ -45,16 +45,16 @@ ________________________________________________________________________________
 ![x](assets/try-morphing-furikake-rice-05.jpg)  
 
 固まった煮汁（煮こごり）をサイコロ状に切ると、こんな感じです。  
-![x](assets/try-morphing-furikake-rice-07.jpg)  
+![x](assets/try-morphing-furikake-rice-06.jpg)  
 
 ほぐした手羽と混ぜたところ  
-![x](assets/try-morphing-furikake-rice-08.jpg)  
+![x](assets/try-morphing-furikake-rice-07.jpg)  
 
 作中では、卵そぼろに煮こごりが覆い隠されている感じだったので、それを再現するとこうなりました。  
-![x](assets/try-morphing-furikake-rice-09.jpg)  
+![x](assets/try-morphing-furikake-rice-08.jpg)  
 
 ご飯の上にかけて混ぜると、こんな感じ。
-![x](assets/try-morphing-furikake-rice-10.jpg)  
+![x](assets/try-morphing-furikake-rice-09.jpg)  
 
 ## 食べてみた感想
 かなり美味しい。  
@@ -100,5 +100,5 @@ ________________________________________________________________________________
 機会があればまた。
 
 という事で、お粗末。
-![x](assets/try-morphing-furikake-rice-11.jpg)  
+![x](assets/try-morphing-furikake-rice-10.jpg)  
 
