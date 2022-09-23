@@ -1,5 +1,8 @@
 【食戟のソーマ】「化けるふりかけごはん」を作ってみたところ、どっちかというと鶏丼だった  
 try-bakeru-furikake-rice  
+
+
+(Anime)Food Wars! – I made "Morphing Furikake Rice". It seems like chicken bowl.  
 try-morphing-furikake-rice  
 
 __________________________________________________________________________________________
