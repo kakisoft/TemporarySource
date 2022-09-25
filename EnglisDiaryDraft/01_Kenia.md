@@ -1,3 +1,11 @@
+medical placement in Kenya
+
+
+
+
+Visiting the Kenyan capital city
+
+__
 ## kaki
 この前、ケニアに研修に行った時の事を話してくれたけど、観光はしなかったの？  
 By the way, you told me about your medical placement in Kenya.  
