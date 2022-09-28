@@ -86,6 +86,7 @@ Therefore, there is no concern due to development stoppage.
 いやああああ！！！  
 Nooooooo!!!!!  
 マジなの？　令和にもなって、PHPライブラリを composer でインストールできないとか正気なの？？  
+OMG! We're not in the Stone Age now!  
 
 さすがに今では改善されているんじゃ・・・と思って公式サイトの PhpRedis 公式のインストールガイドを見てみた。  
 As expected, I thought that it was improved now, so I looked at the official PhpRedis installation guide on the official website.  
