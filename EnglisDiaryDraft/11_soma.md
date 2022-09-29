@@ -110,50 +110,54 @@ The way the jellied broth melts by the heat of the rice and soaks into the rice 
 煮こごりが溶けていく過程で、めちゃくちゃごはんに味が浸透していき、深い味わいが出てきます。  
 As the jellied broth melts, the flavor get absorbed by the rice, giving it a deep flavor.  
 
-__________________________________________
+
 ## 分かった事
 ## What I found out
 
 ### ステンレス製のタッパーを使った方がいい
-### Better use a stainless steel Tupperware.
+### Better use a steel container.
 他にも挑戦した方々のブログを見てみたのですが、「２時間経っても煮汁が固まらない！」といった記事もありました。  
-I looked at the blogs of other people who tried it, and there was an article saying, "The broth doesn't harden even after 2 hours!"
+I looked at the blogs of other people who tried to recreate it, and some of them said, "The broth doesn't harden even after 2 hours!"  
 
 今回の場合、ステンレス製のタッパーを使い、薄くのばしていたおかげか、１時間程度で固まってくれました。  
-In this case, I used a stainless steel Tupperware and spread it thinly, so it hardened in about an hour.  
+In this case, I used a steel container and spread it thinly, so it hardened in about an hour.  
 
 ### 手羽の骨取りは念入りに
-### The process of carefully removing the chicken wing bones
+### carefully remove the chicken wing bones
 食べる時に邪魔になります。  
-The bones of the wings are a distraction when eating.  
+It is difficult to eat if there are chicken bones.  
 
 箸で取るだけでなく、ビニール手袋を使いつつ手で全部取り除いた方が良さそうです。  
-It would be better to not only remove them with chopsticks, but to remove them all by hand while using plastic gloves.  
+It would be better not to only remove them with chopsticks, but to remove them all using plastic gloves.  
 
 
 ### 煮こごりを直接ごはんの上に乗せた方がいい
 ### It is better to put the jellied broth directly on top of the rice.
 煮こごりをごはんの熱で溶かすために、それらの接触面積が大きくなるようにした方がいいです。  
-In order to melt the jellied broth with the heat of the rice, it is better to make their contact area large.  
+In order to melt the jellied broth with the heat of the rice, it is better to make their contact area larger.  
 
 原作を忠実に再現すると、ごはんと一番接面積が大きくなるのは卵そぼろになります。  
-If the original is faithfully reproduced, it is the scrambled egg that has the largest contact area with the rice.  
+If I tried to recreate exactly same as original, it is the scrambled egg that has the largest contact area with the rice.  
 
 ごはんの上に、煮こごり → 手羽先 → 卵そぼろ　という順番で乗せていく方が美味しく食べられます。  
 It is better to put jellied broth, chicken wings, and scrambled egg on top of the rice in this order.  
 （それもうふりかけごはんちゃうやんけ、という話にはなりますが。）  
 (I know, that's not furikake rice anymore...)  
 
+furukake...seaweed, sesame seeds, and other seasonings sprinkled over rice often sold in inexpensive packets.
+
+
 ### 煮こごりが固まるまでの間はどうすれば・・・？
-### What should I do until the jellied broth hardens?
+### What should I do while I wait for jellied broth hardens?
 手羽ほぐしを作り、煮こごりが出来上がるまで、約１時間ほどかかります。  
-It takes about 1 hour to make the chicken wings mash and to finish the jellied broth.  
+It takes about 1 hour to make the shredded chicken wings and to finish the jellied broth.  
 
 その間に、せっかく作った手羽が冷めてしまうが、どうすれば・・・？  
 In the meantime, the chicken wings I made will get cold, what should I do?  
 
 ２食、３食と作っていけば解決できるんだろうけど、そこまでする気にはなれないし。  
-I guess I can solve it if I make 2 or 3 meals, but I don't feel like going that far.  
+I guess I can solve it if I cook 2 or 3 more side dishes, but I don't feel like going that far.  
+
 
 ## 終わりに
 ## To sum up
@@ -161,7 +165,7 @@ I guess I can solve it if I make 2 or 3 meals, but I don't feel like going that 
 I had my family try it and they loved it.  
 
 機会があればまた。  
-I will try again if I have the chance.  
+I will try again if I have a chance.  
 
 という事で、お粗末。  
 Then,  "Happy to serve!"  
@@ -171,10 +175,13 @@ Then,  "Happy to serve!"
 ## おまけ
 ## Extra
 英語版も書いてみました。  
-I also wrote about it in English.  
+I also wrote about it in English/Japanese.  
 
 「化けるふりかけごはん」の英訳は、漫画版の "Morphing furikake rice" を採用しています。  
 The English translation of "Bakeru Furikake Gohan" uses the manga version "Morphing furikake rice".  
+
+"Morphing furikake rice" は、日本語版では、"Bakeru Furikake Gohan" となっています。  
+"Morphing furikake rice" is "Bakeru Furikake Gohan" in Japanese edition.  
 
 ____________________
 # 用語（多分）
@@ -198,3 +205,7 @@ grill - フライパンで焼く
 stir - 炒める  
 
 
+
+
+during 名詞
+while 文章

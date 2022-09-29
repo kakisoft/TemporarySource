@@ -1,5 +1,5 @@
 【Laravel】Redis ライブラリは、PhpRedis が推奨されているが、Predis を採用した方がいい場面も多いのでは？
-Laravel - PhpRedis is recommended for Redis library, but isn't there a lot of situations where it's better to use Predis?
+Laravel - PhpRedis is recommended by Redis library, but aren't there a lot of situations where it's better to use Predis?
 
 ____________________________________________________________
 
@@ -12,7 +12,7 @@ PHP version : 7.4.7
 ## Laravel で Redis を使う時のライブラリ
 ## The library when you use Redis with Laravel
 Laravel で Redis を使う時、PHP のライブラリに以下の２つの候補が出てきます。  
-When using Redis with Laravel, there are two candidates for PHP libraries:  
+There are 2 PHP libraries when you use Redis in Laravel.
 
  * [Predis](https://github.com/predis/predis)
  * [PhpRedis](https://github.com/phpredis/phpredis)
@@ -30,9 +30,7 @@ By default, composer.lock contains "predis".
                 "symfony/cache": "^5.1.4"
             },
 ```
-
-しかし、config\database.php には「phpredis」が記述されています。  
-But config\database.php is written "phpredis".  
+database.php で指定している phpredis は、別途 phpredis をインストールしなければ、使う事ができない。※phpredis は、composer でインストールできない
 
 ### config\database.php
 ```php
@@ -40,9 +38,17 @@ But config\database.php is written "phpredis".
         'client' => env('REDIS_CLIENT', 'phpredis'),
 ```
 
-何なんだこの中途半端な状態は。  
-What is this vague state?  
+composer.lock にて指定している predis は、使用されていない。（デフォルトの設定では）  
+"predis" is not used which is contained in composer.lock.(By default config)  
 
+database.php で指定している phpredis は、別途 phpredis をインストールしなければ、使う事ができない。  
+It is necessary to install "phpredis" separately, which is contained in database.php.  
+
+何なんだこの中途半端な状態は。  
+What is this contradiction?  
+
+
+____________________________________________________________________
 疑問に思って調べてみると、predis はデフォルトから外される予定だったけど、やっぱ外すのやめたーって事になり、とはいっても phpredis を推奨したいし・・・  
 といった感じで、どっちつかずの状態になっているようです。  
 
@@ -86,7 +92,7 @@ Therefore, there is no concern due to development stoppage.
 いやああああ！！！  
 Nooooooo!!!!!  
 マジなの？　令和にもなって、PHPライブラリを composer でインストールできないとか正気なの？？  
-OMG! We're not in the Stone Age now!  
+Are you serious? We're not in the Stone Age now!  
 
 さすがに今では改善されているんじゃ・・・と思って公式サイトの PhpRedis 公式のインストールガイドを見てみた。  
 As expected, I thought that it was improved now, so I looked at the official PhpRedis installation guide on the official website.  
@@ -450,14 +456,17 @@ Since there is no difference due to distribution, you will not encounter unexpec
 
 ## 採用選定基準についての所管
 ## ライブラリ選択基準についての所管
-## Jurisdiction for Library Selection Criteria
-## The viewpoint 
-## viewpoint / landscape / 
+## perspective of library adaption
+## viewpoint / landscape / perspective
 PhpRedis 速い！ PhpRedis 最高！　絶対 PhpRedis にするべき！  
-みたいな意見もちらほら見かけるけど、パッケージマネージャーによる管理ができず、ハードに近い部分に手を加えなければいけないので気を回す部分が増えます。
+みたいな意見もちらほら見かけるけど、パッケージマネージャーによる管理ができず、ハードに近い部分に手を加えなければいけないので気を回す部分が増えます。  
+しかし、それはパッケージマネージャーによる管理ができず、ハードに近い部分に手を加えなければいけないので気を回す部分が増えます。
+Same engineer say that such "PhpRedis is fast! PhpRedis is the best! You should definitely use PhpRedis!"  
+But, it cannot be managed by a package manager, and since it is necessary to modify parts close to the hardware, there are more parts to worry about.
+But, it cannot be managed by the package manager and requires more attention because it has to be modified close to the hardware.
 
 結果として、環境構築の難易度が上がったり通常運用時に不測の事態が発生する可能性が上がったりするので、いっそ Predis を選択するのもアリなのでは？  
-というのが個人的な意見。
+というのが個人的な意見。  
 
 Predis 開発の中断が懸念事項に上がってけど、少なくとも現在は再開しているし、composer で管理できるし、色々メリットはある。  
 
@@ -473,6 +482,7 @@ composer で管理できない以上、Docker イメージを作り直す必要�
 
 
 ## まとめ
+## summary
 
  * Laravel で Redis を使う場合、２種類のライブラリのうち、どちらかを採用する。「Predis」か「PhpRedis」
  * 昔は Predis が使われていたが、現在では PhpRedis が推奨されている。（公式でさえ）
