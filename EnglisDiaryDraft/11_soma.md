@@ -164,7 +164,7 @@ I had my family try it and they loved it.
 I will try again if I have the chance.  
 
 という事で、お粗末。  
-Then,  "Happy to serve!",
+Then,  "Happy to serve!"  
 ![x](assets/try-morphing-furikake-rice-10.jpg)  
 
 
@@ -173,8 +173,8 @@ Then,  "Happy to serve!",
 英語版も書いてみました。  
 I also wrote about it in English.  
 
-「化けるふりかけごはん」の英訳は、漫画版の "Morphing furikake rice" を採用しています。
-The English translation of "Bakeru Furikake Gohan" uses the manga version "Morphing furikake rice".
+「化けるふりかけごはん」の英訳は、漫画版の "Morphing furikake rice" を採用しています。  
+The English translation of "Bakeru Furikake Gohan" uses the manga version "Morphing furikake rice".  
 
 ____________________
 # 用語（多分）
