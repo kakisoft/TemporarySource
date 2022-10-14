@@ -114,18 +114,43 @@ I heard they are friendly, can you touch them?
 I wonder if you can touch giraffes and zebras too.  
 
 ## Katie
-You can touch the elephants in the orphanage if they come near you. Sometimes they're really playful and touch your face with their trunks too! You just have to be careful not to let them step on your feet hen they get too close!  
+You can touch the elephants in the orphanage if they come near you. Sometimes they're really playful and touch your face with their trunks too!  
+You just have to be careful not to let them step on your feet when they get too close!  
 
 
-
-__________________________________________
 ## kaki
+That's very exciting!  
+
+I want to touch them too.
+
+How did the elephant's skin feel like?
+
+## Katie
+They are covered in dry mud so it feels hard and rough.
+
+## kaki
+そうなんだ！めっちゃ興味湧くね。
+
+動物園で見る事はできるけど、触る事はできないからね。
+
 それにしても、広大な自然が凄いね。  
 
 風景の写真とかも見てみたい。
 
+
+I see, interesting!
+
+We can see them in the zoo, but we can't touch them.
+
+By the way, the nature seems so vast!
+
+Do you have any other photos of the landscape?
+
+
 ## Katie
 あるよ。こんな感じ。  
+Yes, sure!  
+These are some of my favorite photos.  
 
 ![x](assets/Kenya_view_01.jpg)  
 
@@ -145,10 +170,51 @@ __________________________________________
 特に最後の夕日なんて凄すぎる！  
 めちゃめちゃ神秘的！  
 
+Amaaaaaaazing!  
+I don't have a word!  
+
+It seems like free material from photo websites.
+
+Especially, the last photo of the sunset is awe-inspiring!
+
 ## Katie
+Yeah! It was beautiful!
+
+But, actually the last photo is of the sunrise, not sunset.
+
+## kaki
+Really?
+
+I didn't notice that. HAHAHA.
+
+Then, did you go to the safari really early?
+
+## Katie
+Yeah, animals are most active during the night and early morning.  
+So, we went there before sunrise to try and see as many animals as we can.
+
+We were hoping to see the lions hunt but we only found them after they fed already.
 
 
 ## kaki
+そうなんだ。じゃ運が良かったから狩りをする瞬間とか見れるの？
+
+Great!
+We can see them hunting if we are lucky?
+
+
+## Katie
+Yes! definitely!  
+I couldn't see them hunting, but I saw a pride of lioness and their kids eating fresh buffalo!
+
+
+## kaki
+すげー！　そんな生々しい光景とかも見れるんだ！
+
+大自然の厳しさを感じる光景
+大自然の弱肉強食の厳しさを感じる事が出来る風景
+
+Wow! You really witnessed the circle of life!
 
 
 ## Katie
@@ -178,3 +244,28 @@ orphanage
 
 friendly  
 温厚な性格（友好的）  
+
+trunks  
+象の鼻（nose とは言わない）  
+
+I don't have a word!  
+言葉が出てこない  
+（悪い意味でも使える）  
+
+awe-inspiring  
+神秘的  
+
+pride  
+ライオンの群れ  
+
+lioness  
+雌のライオン  
+
+
+生々しい光景  
+→ 大自然の厳しさを感じる光景  
+→ 大自然の弱肉強食の厳しさを感じる事が出来る風景  
+
+Wow! You really witnessed the circle of life!  
+
+
