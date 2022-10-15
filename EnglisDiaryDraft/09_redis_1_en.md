@@ -50,7 +50,7 @@ What is this contradiction?
 
 ____________________________________________________________________
 疑問に思って調べてみると、predis はデフォルトから外される予定だったけど、やっぱ外すのやめたーって事になり、とはいっても phpredis を推奨したいし・・・  
-といった感じで、どっちつかずの状態になっているようです。  
+といった感じで、どっちつかずの状態になっているようです。（推測）  
 
 I wondered about it and looked it up.  
 It seems like predis was supposed to be removed from the default, but it has been reconsider.  
