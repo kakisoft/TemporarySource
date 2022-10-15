@@ -47,16 +47,14 @@ It is necessary to install "phpredis" separately, which is contained in database
 何なんだこの中途半端な状態は。  
 What is this contradiction?  
 
-
-____________________________________________________________________
 疑問に思って調べてみると、predis はデフォルトから外される予定だったけど、やっぱ外すのやめたーって事になり、とはいっても phpredis を推奨したいし・・・  
 といった感じで、どっちつかずの状態になっているようです。（推測）  
 
 I wondered about it and looked it up.  
 It seems like predis was supposed to be removed from the default, but it has been reconsider.  
-However, I would recommend phpredis...  
+However, they would like to suggest to use phpredis...  
 
-It seems that it is in a state of confusion.  
+It seems that they are still in confusion.(maybe)  
 
 
 ## どちらを採用するべき？
@@ -71,21 +69,22 @@ You should not use predis, the Redis client for PHP
 > predis is a Redis client for PHP.  
 >
 > リポジトリを見て察しのいい方は気づいたと思うのですが、2年ぐらいメンテ（コミットすら）されていません。  
-> If you look at the repository and have a good guess, you'll notice that it hasn't been maintained (even committed) for about two years.  
+> If you have a good guess and check their repository, you'll notice that it hasn't been updated (even committed) for about two years.  
 >
 > すでにPHP7.3周りで問題が出てます。これが「どういった事情でメンテされていないのか？」「されないのではなく、できないのか？」などは誰もわからないと思いますし、もしかしたら将来的に再度メンテされる可能性はありえます。  
-> There is already a problem around PHP7.3. I don't think anyone knows "Why is this not being maintained?"  
+> There is already a problem from PHP7.3. I don't think anyone knows "Why is this not being updated?"  
 
 
 現在はどうなっているのか気になって調べてみたところ、2022年 9月現在は、無事開発は再開され、活発に活動されています。  
-I was curious about the current situation, so I looked into it, and as of September 2022, development has resumed safely and is active.  
+I looked up current situation, and as of September 2022, development has resumed and is active.  
 https://github.com/predis/predis/pulse  
 
 そのため、開発ストップによる懸念事項は無いものと考えて良さそうです。  
 Therefore, there is no concern due to development stoppage.  
 
 > Laravelのドキュメントにも書いてありますが、phpredis使えばいいと思います。  
-> It is also written in the Laravel documentation, but I think you should use phpredis.
+> It is also stated in the Laravel documentation, but I think you should use phpredis.
+>
 > こちらはcomposerでインストールできない（PHP拡張モジュールなので）のでpeclでインストールします。
 > This can not be installed with composer (because it is a PHP extension module), so install it with pecl.
 
@@ -95,7 +94,7 @@ Nooooooo!!!!!
 Are you serious? We're not in the Stone Age now!  
 
 さすがに今では改善されているんじゃ・・・と思って公式サイトの PhpRedis 公式のインストールガイドを見てみた。  
-As expected, I thought that it was improved now, so I looked at the official PhpRedis installation guide on the official website.  
+As expected, I thought that it was fixed now, so I looked at the official PhpRedis installation guide on the official website.  
 が、pecl を使えという夢も希望も無いメッセージが。  
 But, there is a message without a dream or hope to use pecl.  
 
@@ -106,14 +105,14 @@ I found also this.
 [How to install phpredis using composer?](https://github.com/phpredis/phpredis/issues/745)  
 
 > I need to install phpredis using composer on windows server running IIS. What is the package name for this?
-
+>
 > You cannot.
 > Composer is for pure-PHP library not for C extension (pickle will do it later)
-
+>
 >  You need to compile it! See more information here: 
 
 どうやら composer でインストールするのは絶望的で、今後もできるようになる可能性は限りなくゼロに近そう。  
-Apparently it is hopeless to install with composer, and the possibility of being able to do it in the future seems to be close to zero.  
+Apparently it is impossible to install with composer, and the possibility of being able to do it in the future seems to be close to zero.  
 
 念のため、他の記事も参考にしてみた。  
 Just in case, I checked other articles as well.  
@@ -132,18 +131,17 @@ It seems that PhpRedis was better in performance comparison.
 >
 > Laravel 8 でPhpRedisとPredisを比較しました。PhpRedisの方が普通に速いので、導入できる環境であれば、Laravelの推奨に従ってPhpRedisで良さそうです。
 
-> I ran each of the above commands 50 times and calculated the average (± standard deviation).  
+> I executed each command 50 times, and calculate average and standard deviation.
 >
-> * PhpRedis ... 1.317 ± 0.03(seconds)  
-> * Predis ... 1.509 ± 0.026(seconds)  
+> * PhpRedis ... 1.317 ± 0.03(secs)  
+> * Predis ... 1.509 ± 0.026(secs)  
 >
-> The processing time when using Predis is about 10% longer than PhpRedis, and there is a clear difference.  
+> The processing time when using Predis is about 10% longer than PhpRedis, which shows a clear difference.  
 >
 > I compared PhpRedis and Predis in Laravel 8. PhpRedis is usually faster, so if it is an environment that can be introduced, PhpRedis seems to be good according to Laravel's recommendation.
 
 でも composer で管理できないのは嫌だ。  
 But I hate not being able to manage it with composer.  
-But I don't want to not be able to manage it with composer.  
 
 [PhpRedis vs Predis: Comparison on real production data](https://akalongman.medium.com/phpredis-vs-predis-comparison-on-real-production-data-a819b48cbadb)
 
@@ -166,6 +164,7 @@ Here is Laravel official statement.
 これはもう phpredis で確定か。  
 Many developers highly recommended phpredis.  
 
+_______________________________________________________________________________________________________________
 ## PhpRedis のインストール
 ## How to install PhpRedis
 
