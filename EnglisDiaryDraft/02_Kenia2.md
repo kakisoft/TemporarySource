@@ -199,8 +199,8 @@ We were hoping to see the lions hunt but we only found them after they fed alrea
 ## kaki
 そうなんだ。じゃ運が良かったから狩りをする瞬間とか見れるの？
 
-Great!
-We can see them hunting if we are lucky?
+Great!  
+We can see them hunting if we are lucky?  
 
 
 ## Katie
@@ -217,10 +217,17 @@ I couldn't see them hunting, but I saw a pride of lioness and their kids eating 
 Wow! You really witnessed the circle of life!
 
 
+![x](assets/Kenya_108.jpg)  
+
+
+
+
 ## Katie
 あと、サバンナ以外だと、こんな感じの風景もあるよ。  
 
 ![x](assets/Kenya_view_05.jpg)  
+
+![x](assets/Kenya_105.jpg)  
 
 
 ## kaki
@@ -229,6 +236,8 @@ Wow! You really witnessed the circle of life!
 めちゃくちゃ奇麗なビーチじゃん！
 
 ケニア・・・というかアフリカって、全然ビーチのイメージとか無かったからびっくりしたよ！
+
+ってか、海あったんだ。
 
 
 ## Katie
