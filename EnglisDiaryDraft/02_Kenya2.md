@@ -200,12 +200,12 @@ We were hoping to see the lions hunt but we only found them after they fed alrea
 そうなんだ。じゃ運が良かったから狩りをする瞬間とか見れるの？
 
 Great!  
-We can see them hunting if we are lucky?  
+You can see them hunting if you are lucky?  
 
 
 ## Katie
 Yes! definitely!  
-I couldn't see them hunting, but I saw a pride of lioness and their kids eating fresh buffalo!
+I couldn't see them hunting, but I saw a pride of lioness and their kids eating a fresh buffalo!
 
 
 ## kaki
@@ -214,34 +214,85 @@ I couldn't see them hunting, but I saw a pride of lioness and their kids eating 
 大自然の厳しさを感じる光景
 大自然の弱肉強食の厳しさを感じる事が出来る風景
 
-Wow! You really witnessed the circle of life!
-
-
-![x](assets/Kenya_108.jpg)  
-
-
+Wow! You really witnessed the circle of life!  
 
 
 ## Katie
-あと、サバンナ以外だと、こんな感じの風景もあるよ。  
+実際に食べてる写真も撮ってきたよ。
+I took this photo from the safari car.
+
+![x](assets/Kenya_animal_06.jpg)  
+
+
+## kaki
+うっわ！すげえ！
+こんな光景が見れるんだ！
+
+Wow! That's incredible!  
+That's so lucky that you got to see the wildlife in such proximity!  
+
+
+## Katie
+Kenya has beautiful sceneries other than the savanna as well.  
+For example, this is a photo from a beach on the East coast.  
 
 ![x](assets/Kenya_view_05.jpg)  
-
-![x](assets/Kenya_105.jpg)  
 
 
 ## kaki
 ええええ！？　何これ？！　どこ？？  
+WOOOOW! Where is this?
 
 めちゃくちゃ奇麗なビーチじゃん！
+That's a beautiful beach!
 
 ケニア・・・というかアフリカって、全然ビーチのイメージとか無かったからびっくりしたよ！
-
-ってか、海あったんだ。
+I didn't know that African countries had beautiful beaches!  
 
 
 ## Katie
+It was the softest and the whitest sand I've ever walked on!
+Unfortunately it was winter there so the water was cold but I would love to go back there when I can actually swim in the water!
 
+
+## kaki
+いいね！泳げるならぜひ泳いでみたい！
+
+って、ケニアは冬だったの？
+
+Great! If I can swim there, I want to try!
+
+By the way, Is it winter in Kenya now?
+
+N.B. She went to Kenya in June.
+
+
+## Katie
+Yeah!
+
+Because Kenya is under the equator, they have rainy season (winter) and dry season (summer).
+Apparently June was the beginning of the rainy season. I heard that the best time to go is December which is their summer!
+
+
+## kaki
+あ。フィリピンもそんな感じって聞いたことある！
+Oh! I heard that the Philippines has a similar climate too!
+
+
+## Katie
+赤道に近い国はそうだと思うよ。
+
+I suppose counties near the equator are like that!
+
+
+## kaki
+I didn't know that!
+
+あ。でも俺の故郷の沖縄も、そんな感じだね。四季が本州よりもはっきりしてないや。
+
+Oh... but when I come to think of it, my hometown Okinawa is similar.
+
+They don't have clear 4 seasons unlike the main island in Japan.
 
 
 
