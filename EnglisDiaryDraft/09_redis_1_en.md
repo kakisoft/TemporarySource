@@ -164,7 +164,7 @@ Here is Laravel official statement.
 これはもう phpredis で確定か。  
 Many developers highly recommended phpredis.  
 
-_______________________________________________________________________________________________________________
+
 ## PhpRedis のインストール
 ## How to install PhpRedis
 
@@ -218,7 +218,7 @@ RUN docker-php-ext-install redis
 ### インストールチェック
 ### Installation check
 以下のコマンドにて確認可能です。  
-You can check whether it is installed with the following command.  
+You can check whether PhpRedis is installed correctly with the following command.  
 ```
 php -m | grep redis
 ```
@@ -251,7 +251,7 @@ services:
 ```
 
 ## Laravel の設定
-## Laravel configure
+## Laravel configuration
 
 ### .env
 ```
@@ -276,9 +276,9 @@ php artisan config:clear
 ```
 
 ## 実験用ソース
-## Experimental sources
+## Sample sources
 以下のような超適当なコードを書いて実験してみました。  
-I have tried to write the following code and try it.  
+I have written the following code to try it.  
 
 ### routes\web.php
 ```php
@@ -304,7 +304,7 @@ Route::get('/cache/remember', function () {
     echo "remember";
 
     // 値を恒久的に保存する
-    // store the value permanently
+    // store value permanently
     $cache = \Cache::remember('key02', 10, function(){
         return "value02_remember";
     });
@@ -317,7 +317,7 @@ Route::get('/cache/get', function () {
     echo "get";
 
     // キャッシュからアイテム一つを取得する
-    // get one value from the cache
+    // get one value from cache
     $cache01 = Cache::get('key01');
     $cache02 = Cache::get('key02');
 
@@ -330,7 +330,7 @@ Route::get('/cache/forget', function () {
     echo "forget";
 
     // キャッシュからアイテムを消去
-    // clear value from cache
+    // remove value from cache
     Cache::forget('key01');
     Cache::forget('key02');
 });
@@ -341,15 +341,16 @@ I was able to successfully get Redis to work.
 
 
 ## その他注意事項
-pecl install redis コマンドにてインストールした後、以下のメッセージが表示されました。
-After installing with the pecl install redis command, the following message was displayed.  
+## caution
+pecl install redis コマンドにてインストールした後、以下のメッセージが表示されました。  
+After installing with command pecl install redis, the following message was displayed.  
 
-> You should add "extension=redis.so" to 
+> You should add "extension=redis.so" to  
 
 との事ですが、別に追記せずとも動きました。  
-However, it worked without any additions.
+However, it worked without adding it.
 詳細は私も良く分かってないのですが、Laravel が気を利かせて、勝手に読み込んでくれているのかもしれません。  
-I don't know the details, but Laravel may be taking care of it and reading it on its own.  
+I have no idea about the details, but I guess Laravel take care of it and read it on its own.  
 
 と思いきや、こんなのも見つかりました。  
 As I thought, I also found this.  
@@ -365,7 +366,7 @@ The content says,
 "I got an error, but I fixed it by commenting out php.ini "extension="redis.so". 』  
 
 という事は、Laravel を使う場合は、この設定は不要なのかもしれません。  
-So, if you use Laravel, this setting may not be necessary.  
+So, when you use Laravel, this setting may not be necessary.  
 
 ただ、別の環境にアップする時にはエラーが発生するケースがあるようです。  
 However, there seems to be a case where an error occurs when uploading to another environment.  
@@ -373,15 +374,15 @@ However, there seems to be a case where an error occurs when uploading to anothe
 How to solve an error when deploying Laravel to AWS  
 
 EC2 にアップすると動かなかったので、php.ini に extension=redis.so を追記しているようです。  
-It seems that extension=redis.so is added to php.ini because it did not work when uploaded to EC2.  
+It seems that extension=redis.so is added to php.ini to make it work in EC2.
 
 「本番環境では動かない！」という場合のため、こんな現象が発生するケースがあるという事を記憶に留めておいた方がよさそうです。  
-It seems better to keep in mind that there are cases where such a phenomenon occurs, just in case "It does not work in the production environment!"  
+It seems better to keep in mind that there are cases where such an error occurs, just in case "It does not work in the production environment!"  
 
 おそらく Amazon Linux（RedHat系）を使っているのも、考えられる原因の１つでしょうか。  
-Maybe, using Amazon Linux(RedHat series) is one of the possible causes.  
+Maybe, using Amazon Linux(RedHat distribution) is one of the causes.  
 後で試してみたのですが、Debian では特に問題なく動作できました。  
-I tried it later and it worked normally on Debian.  
+I tried it later and it worked just fine on Debian.  
 
 
 ### php.ini に extension=redis.so を追記
@@ -402,12 +403,12 @@ Loaded Configuration File => /usr/local/etc/php/php.ini
 ```
 
 上記では、保存パスが「/usr/local/etc/php/php.ini」だったので、追記パスは以下。
-In the above, the save path was "/usr/local/etc/php/php.ini", so the additional path is as follows.  
+In the above, the saved path was "/usr/local/etc/php/php.ini", so the additional path is as follows.  
 ```
 echo "extension=redis.so" >> /usr/local/etc/php/php.ini
 ```
 追記後は php.ini の内容を確認。  
-After adding, check the contents of php.ini.  
+After adding it, check the contents of php.ini.  
 
 その後、再起動。  
 Then reboot.  
@@ -415,7 +416,8 @@ Then reboot.
 
 
 ## Predis を使う場合
-## Using Predis
+## case of Predis
+## How to install Predis
 こちらも試してみました。  
 I also tried it.  
 
@@ -423,7 +425,7 @@ composer でインストールができるので、PhpRedis よりも遥かに�
 It can be installed with composer, so it's much easier than PhpRedis.  
 
 詳細は公式サイトを。  
-For more details, see the official website.  
+For more details, read the official website.  
 [https://readouble.com/laravel/8.x/ja/redis.html](https://readouble.com/laravel/8.x/ja/redis.html)
 
 以下、実行コマンドです。  
@@ -433,11 +435,11 @@ composer require predis/predis
 ```
 
 .env や config を正しく設定できていれば、すんなり行くのではないかと思います。  
-If .env and config are set correctly, I think it will go smoothly.  
+If .env and config are set correctly, I think it works without any problem.  
 
 
 ## Laravel の設定
-## Laravel configure
+## Laravel configuration
 
 ### config\database.php
 ```php
@@ -450,34 +452,46 @@ If .env and config are set correctly, I think it will go smoothly.
 Other settings and the code used in the experiment are the same as above.  
 
 ディストリビューションによる差異を受けないので、想定外の事に遭遇する事も無く、心に余裕ができます。  
-Since there is no difference due to distribution, you will not encounter unexpected things, and you will have peace of mind.  
+Since there is no difference due to distribution, you will not encounter unexpected issue, and you will have peace in your mind.  
 
-
+______________________________________________________________________________________________________________________________
 ## 採用選定基準についての所管
 ## ライブラリ選択基準についての所管
-## perspective of library adaption
-## viewpoint / landscape / perspective
+## perspective of library selection
 PhpRedis 速い！ PhpRedis 最高！　絶対 PhpRedis にするべき！  
 みたいな意見もちらほら見かけるけど、パッケージマネージャーによる管理ができず、ハードに近い部分に手を加えなければいけないので気を回す部分が増えます。  
-しかし、それはパッケージマネージャーによる管理ができず、ハードに近い部分に手を加えなければいけないので気を回す部分が増えます。
-Same engineer say that such "PhpRedis is fast! PhpRedis is the best! You should definitely use PhpRedis!"  
-But, it cannot be managed by a package manager, and since it is necessary to modify parts close to the hardware, there are more parts to worry about.
-But, it cannot be managed by the package manager and requires more attention because it has to be modified close to the hardware.
+
+Same engineers say that "PhpRedis is fast! PhpRedis is the best! You should definitely use PhpRedis!"  
+But, it cannot be managed by a package manager, and since it is necessary to modify parts close to hardware, there are many things to take account.
 
 結果として、環境構築の難易度が上がったり通常運用時に不測の事態が発生する可能性が上がったりするので、いっそ Predis を選択するのもアリなのでは？  
 というのが個人的な意見。  
+As a result, the difficulty of the building an environment may complication and the possibility of unexpected errors increase occurring during normal working.
+In my opinion, then Predis is a good choice.
 
 Predis 開発の中断が懸念事項に上がってけど、少なくとも現在は再開しているし、composer で管理できるし、色々メリットはある。  
+I found an article where the concern about the development of Predis had been suspended, but now development has resumed.
+It can be managed by composer and has many advantages.
+
 
 性能は PhpRedis の方が上だけど、システムによってはキャッシュへのアクセスがそこまで頻繁に起こらないケースもあるだろうし、そこまで厳しいアクセススピードの性能が求められないなら、管理コストを下げられるライブラリを選ぶ、というのも１つの選定基準だと思う。  
+PhpRedis has better performance, but depending on the system, there are cases where access to the cache does not occur so frequently.
+If you don't need such strict access speed performance, I think one of the selection criteria is to choose a library that can reduce management costs.
 
 少なくとも自分は、上記のような理由で PhpRedis ではなく Predis を採用する責任者が居たとしても何ら疑問はないし、その意見に反対するつもりも無い。  
+At least I have no doubts and do not object to the opinion that there are developers responsible for adopting Predis over PhpRedis for the above reasons.
 
 ちなみに自分は  
 「高速化と軽量化は常に正義！（たとえフロント側のパフォーマンスが厳しく求められないアプリケーションでも。技術負債を抱えてでも実施するべき！）」  
 という意見には否定的です。  
+By the way, I am not agree with such an idea.
+"Faster and lighter is always justice! (Even if the application does not require strict front-end performance. It should be implemented even if you have technical debt!)
+
 
 composer で管理できない以上、Docker イメージを作り直す必要があるし、EC2 のような仮想サーバで動かす事を想定するならディストリビューションごとにインストールコマンド用意したりする必要があったりと、ややこしい作業が増えるし。
+Since you can't manage it with composer, you need to recreate the Docker image.
+And also, If you are planning to use it in virtual server such as EC2, it will be necessary to prepare an installation command for each distribution, and complicated work will increase.
+
 
 
 ## まとめ
@@ -489,11 +503,27 @@ composer で管理できない以上、Docker イメージを作り直す必要�
  * そのため、コンテナを使っている場合、イメージを作り替える必要がある
  * php.ini に "extension=redis.so" の追記が必要かもしれないけど、無くても動く。ただし環境によるかも。
 
+ * When using Redis in Laravel, you will adopt one of two types of libraries. "Predis" or "PhpRedis"
+ * Previously, Predis was used, but now PhpRedis is recommended. (even official)
+ * PhpRedis cannot be managed by composer and must be installed by pecl.
+ * Therefore, if you are using containers, you need to rebuild the image
+ * You may need to add "extension=redis.so" to php.ini, but it works without it. However, it may depend on the environment.
+
+
 「キャッシュドライバを使うだけで、何でこんなに苦労を・・・？　このシステムではフロントは大して重要じゃないのに」と思った方は、是非 Predis の採用を検討してみてください。
+
+When you come up to that "Why am I having such a hard time just using the cache driver...?  The front end is not important in this system",
+
+Please consider adopting Predis.
+I recommend consider adopting Predis.
+
 
 
 ## おまけ
+## Extra
 ある日、何をやってもブラウザに「500 エラー」としか出なくなってたので、laravel.log を見たら、こんなの出てた。  
+One day, no matter what I did, an error occurred in which only "500 error" was displayed on the browser.
+So I looked in laravel.log and found such a message
 
 ```
 local.ERROR: Please make sure the PHP Redis extension is installed and enabled. 
@@ -502,9 +532,32 @@ at /var/www/html/my-laravel-app/vendor/laravel/framework/src/Illuminate/Redis/Co
 ```
 
 あれ？　特に何も触ってないのに？  
-と思いきや、.env を弄ってて、環境設定ファイルが読み込みエラーになってたのが原因だった。  
+と思いきや、.env を弄ってて、環境設定ファイルが読み込みエラーになってたのが原因だった。（Redis と全く関係無い部分）  
+Why? I didn't edit about redis configuration?  
+I wondered and looked into it, and it was caused by an error in reading the environment setting file due to editing .env.(The parts is not Redis / The Parts that have nothing to do with Redis)
 
-それ以外の全てのエラーを優先して前面に出て来るとは、なかなか主張が強いな・・  
+
+それ以外の全てのエラーを優先して前面に出て来るとは、なかなか主張が強いな・・・  
+It's quite an assertion that all other errors are prioritized and come to the fore...
+
+______
 
 
+Shiba Inu
+
+Solana
+
+
+since
+なので
+
+because
+なので
+
+
+since - 周知の事実なので
+
+
+take account
+気を配る
 
