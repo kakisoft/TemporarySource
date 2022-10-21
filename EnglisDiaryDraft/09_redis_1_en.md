@@ -32,7 +32,14 @@ By default, composer.lock contains "predis".
                 "symfony/cache": "^5.1.4"
             },
 ```
+
 database.php で指定している phpredis は、別途 phpredis をインストールしなければ、使う事ができない。※phpredis は、composer でインストールできない
+
+phpredis specified in database.php cannot be used unless phpredis is installed separately.  
+cf.
+phpredis couldn't be installed by composer.
+
+
 
 ### config\database.php
 ```php
@@ -572,3 +579,13 @@ happen
 ニュートラル
 
 
+error occurs
+cache does not happen so frequently
+
+regular work
+
+
+criteria - 基準
+criterion
+
+technical debt
