@@ -1,6 +1,8 @@
 【Laravel】Redis ライブラリは、PhpRedis が推奨されているが、Predis を採用した方がいい場面も多いのでは？
 Laravel - PhpRedis is recommended by Redis library, but aren't there a lot of situations where it's better to use Predis?
 
+phpredis-vs-predis
+
 ____________________________________________________________
 
 **Environment**
@@ -466,31 +468,34 @@ But, it cannot be managed by a package manager, and since it is necessary to mod
 
 結果として、環境構築の難易度が上がったり通常運用時に不測の事態が発生する可能性が上がったりするので、いっそ Predis を選択するのもアリなのでは？  
 というのが個人的な意見。  
-As a result, the difficulty of the building an environment may complication and the possibility of unexpected errors increase occurring during normal working.
+At the end of time, the difficulty of the building an environment may be complicated, it increases the possibility of unexpected errors during regular work.
 In my opinion, then Predis is a good choice.
 
+
 Predis 開発の中断が懸念事項に上がってけど、少なくとも現在は再開しているし、composer で管理できるし、色々メリットはある。  
-I found an article where the concern about the development of Predis had been suspended, but now development has resumed.
+I found an article talking about the concern which Predis development had been suspended, but now development has resumed.
 It can be managed by composer and has many advantages.
 
 
 性能は PhpRedis の方が上だけど、システムによってはキャッシュへのアクセスがそこまで頻繁に起こらないケースもあるだろうし、そこまで厳しいアクセススピードの性能が求められないなら、管理コストを下げられるライブラリを選ぶ、というのも１つの選定基準だと思う。  
-PhpRedis has better performance, but depending on the system, there are cases where access to the cache does not occur so frequently.
-If you don't need such strict access speed performance, I think one of the selection criteria is to choose a library that can reduce management costs.
+PhpRedis has better performance, but depending on system, there are cases where access to the cache does not happen so frequently.
+If you don't need such a strict access speed performance, I think one of the selection criteria is to choose a library that can reduce management costs.
 
+------
 少なくとも自分は、上記のような理由で PhpRedis ではなく Predis を採用する責任者が居たとしても何ら疑問はないし、その意見に反対するつもりも無い。  
 At least I have no doubts and do not object to the opinion that there are developers responsible for adopting Predis over PhpRedis for the above reasons.
+------
 
 ちなみに自分は  
 「高速化と軽量化は常に正義！（たとえフロント側のパフォーマンスが厳しく求められないアプリケーションでも。技術負債を抱えてでも実施するべき！）」  
 という意見には否定的です。  
 By the way, I am not agree with such an idea.
-"Faster and lighter is always justice! (Even if the application does not require strict front-end performance. It should be implemented even if you have technical debt!)
+"Faster and lighter is always right! (Even if the application does not require high front-end performance. It should be implemented even if you have technical debt!)
 
 
 composer で管理できない以上、Docker イメージを作り直す必要があるし、EC2 のような仮想サーバで動かす事を想定するならディストリビューションごとにインストールコマンド用意したりする必要があったりと、ややこしい作業が増えるし。
 Since you can't manage it with composer, you need to recreate the Docker image.
-And also, If you are planning to use it in virtual server such as EC2, it will be necessary to prepare an installation command for each distribution, and complicated work will increase.
+And also, If you are planning to use it in virtual server such as EC2, it will be necessary to prepare an installation command for each distribution, and the number of complicated works will increase.
 
 
 
@@ -503,18 +508,15 @@ And also, If you are planning to use it in virtual server such as EC2, it will b
  * そのため、コンテナを使っている場合、イメージを作り替える必要がある
  * php.ini に "extension=redis.so" の追記が必要かもしれないけど、無くても動く。ただし環境によるかも。
 
- * When using Redis in Laravel, you will adopt one of two types of libraries. "Predis" or "PhpRedis"
- * Previously, Predis was used, but now PhpRedis is recommended. (even official)
+ * When using Redis in Laravel, you will need to adopt one of two types of libraries. "Predis" or "PhpRedis"
+ * Previously, Predis was commonly used, but now PhpRedis is recommended. (even in official website)
  * PhpRedis cannot be managed by composer and must be installed by pecl.
- * Therefore, if you are using containers, you need to rebuild the image
- * You may need to add "extension=redis.so" to php.ini, but it works without it. However, it may depend on the environment.
+ * Therefore, if you are using containers, you need to rebuild the image.
+ * You may need to add "extension=redis.so" to php.ini, but it may work without it depend on the environment.
 
 
 「キャッシュドライバを使うだけで、何でこんなに苦労を・・・？　このシステムではフロントは大して重要じゃないのに」と思った方は、是非 Predis の採用を検討してみてください。
-
-When you come up to that "Why am I having such a hard time just using the cache driver...?  The front end is not important in this system",
-
-Please consider adopting Predis.
+If you think that "Why am I having such a hard time just using the cache driver...?  The front end is not important in this system",
 I recommend consider adopting Predis.
 
 
@@ -522,8 +524,8 @@ I recommend consider adopting Predis.
 ## おまけ
 ## Extra
 ある日、何をやってもブラウザに「500 エラー」としか出なくなってたので、laravel.log を見たら、こんなの出てた。  
-One day, no matter what I did, an error occurred in which only "500 error" was displayed on the browser.
-So I looked in laravel.log and found such a message
+One day, I got a "500 error" no matter what I did.
+So I looked in laravel.log and found such a message.
 
 ```
 local.ERROR: Please make sure the PHP Redis extension is installed and enabled. 
@@ -534,11 +536,12 @@ at /var/www/html/my-laravel-app/vendor/laravel/framework/src/Illuminate/Redis/Co
 あれ？　特に何も触ってないのに？  
 と思いきや、.env を弄ってて、環境設定ファイルが読み込みエラーになってたのが原因だった。（Redis と全く関係無い部分）  
 Why? I didn't edit about redis configuration?  
-I wondered and looked into it, and it was caused by an error in reading the environment setting file due to editing .env.(The parts is not Redis / The Parts that have nothing to do with Redis)
+I wondered and looked into it, and it was caused by an error in reading the environment setting file due to editing .env.(The Parts that have nothing to do with Redis)
 
 
 それ以外の全てのエラーを優先して前面に出て来るとは、なかなか主張が強いな・・・  
-It's quite an assertion that all other errors are prioritized and come to the fore...
+It's quite assertive that redis error is prioritized from all other errors and come to front...
+
 
 ______
 
@@ -560,4 +563,12 @@ since - 周知の事実なので
 
 take account
 気を配る
+
+
+occur
+起きてる出来事に対して、ネガティブ感が出る
+
+happen
+ニュートラル
+
 
