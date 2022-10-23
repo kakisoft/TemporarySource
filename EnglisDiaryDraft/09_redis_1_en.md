@@ -33,14 +33,6 @@ By default, composer.lock contains "predis".
             },
 ```
 
-database.php で指定している phpredis は、別途 phpredis をインストールしなければ、使う事ができない。※phpredis は、composer でインストールできない
-
-phpredis specified in database.php cannot be used unless phpredis is installed separately.  
-cf.
-phpredis couldn't be installed by composer.
-
-
-
 ### config\database.php
 ```php
     'redis' => [
@@ -52,6 +44,10 @@ composer.lock にて指定している predis は、使用されていない。�
 
 database.php で指定している phpredis は、別途 phpredis をインストールしなければ、使う事ができない。  
 It is necessary to install "phpredis" separately, which is contained in database.php.  
+
+cf.
+phpredis couldn't be installed by composer.
+
 
 何なんだこの中途半端な状態は。  
 What is this contradiction?  
@@ -593,20 +589,36 @@ technical debt
 ______________________________________________________________
 
 
+書いてみた。
+
+『【Laravel】Redis ライブラリは、PhpRedis が推奨されているが、Predis を採用した方がいい場面も多いのでは？』
+https://kaki-engine.com/phpredis-vs-predis/
+
+
+
+英語版も書いてみました。
+
+添削は、スペイン在住の友人（フロントエンド兼デザイナー）にお願いしました。
+
+Laravel - PhpRedis is recommended by Redis library, but aren't there a lot of situations where it's better to use Predis?
+https://dev.to/kakisoft/laravel-phpredis-is-recommended-by-redis-library-but-arent-there-a-lot-of-situations-where-its-better-to-use-predis-50ea
+
+
+
 最大の英訳ポイントは以下です。
 
-【日】
+---【日】---
 いやああああ！！！
 マジなの？　令和にもなって、PHPライブラリを composer でインストールできないとか正気なの？？
 
-【英】
+---【英】---
 Nooooooo!!!!!
 Are you serious? We're not in the Stone Age now!
 （おいおい。今は石器時代じゃないんだぜ？）
-
-
+------------
 
 英文の添削をお願いする時、謝礼は毎回PayPal経由で日本円で払っているのですが、今回は円安の影響で、笑えるぐらい額が少なくなってたそうです。
+
 日本円で、友人間の間だった事もあり、「ユーロで払います」と契約していなかった事もあったので笑い話で済んでいるが、これが企業間の取引で支払がユーロで指定されていたと思うと恐ろしくなる。
 
 身近で感じる円安の影響
