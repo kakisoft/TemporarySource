@@ -75,14 +75,20 @@ f01
 _________________________________________________________
 
 
-food scene
+food scene  
 食べ物のトレンド
 
-lake Nakuru
+lake Nakuru  
 ナクル湖（ケニアの大きな湖）
 
-fresh water
+fresh water  
 淡水
 
-fresh water fish
+fresh water fish  
 淡水魚
+
+
+
+ugari
+
+ケール
