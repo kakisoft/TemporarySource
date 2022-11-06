@@ -106,12 +106,83 @@ This one was my favorite.
 r03  
 ![x](assets/r03.jpg)  
 
-f02  
-![x](assets/f02.jpg)  
+This is the view from the restaurant.  
+It was by the Diani Beach on the east coast.  
+
+I can't remember the name, but the view was amazing, and food was tasty so we went there twice.  
 
 f05  
 ![x](assets/f05.jpg)  
 
+We shared starters and we ordered some tacos and calamari.  
+They were really tasty!  
+
+
+f02  
+![x](assets/f02.jpg)  
+
+This was my main meal.  
+It had an Asian twist to it so I really enjoyed it.  
+I was craving some Asian food towards the end of the trip.  
+
+##### Me
+That's such an amazing view!  
+
+Is it a common tacos, by the way?  
+
+##### Katie
+Yeah! I think so.  
+It was better than some tacos I have tried in the UK.  
+
+##### Me
+Really?  
+
+I didn't expect that!  
+
+But tacos is not from the UK, so it is not surprising that other countries can  make it more tasty.  
+
+Is this rice on the right side of the second picture.  
+It seems different from Japanese rice.  
+
+##### Katie
+Yeah! I think it was jasmine rice.  
+It is common in China and I think most rice I had in Kenya was also jasmine rice.  
+
+##### Me
+Really I haven't tried it.  
+
+Do you have any other photos?  
+
+##### Katie
+Yes!
+We also went to an Indian restaurant.  
+
+f13  
+![x](assets/f13.jpg)  
+
+f11  
+![x](assets/f11.jpg)  
+
+There are so many Indian restaurant in Kenya because there are a lot of migrants from India.  
+
+This one was owned by an Indian family and it was very authentic.  
+
+My favorite was okura fries.  
+
+##### Me
+Oh! They look like really authentic Indian dishes!  
+
+I have never heard of okura fries.  
+
+And, I always thought "okura" was Japanese.  
+
+##### Katie
+
+
+酒  
+飲み物  
+デザート  
+音楽  
 
 _________________________________________________________
 
@@ -134,4 +205,12 @@ whole fish
 
 
 ケール
+
+
+calamari  
+イカリング  
+
+
+I didn't expect that!  
+以外だね。（予想外だったね）  
 
