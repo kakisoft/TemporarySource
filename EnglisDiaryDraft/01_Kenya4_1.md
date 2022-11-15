@@ -1,3 +1,6 @@
+Kenyan local food
+
+
 ##### Me
 先日は、amazing なサファリの写真をありがとう！  
 
@@ -177,41 +180,113 @@ I have never heard of okura fries.
 And, I always thought "okura" was Japanese.  
 
 ##### Katie
+Oh, yeah!
+Okura is actually originally from Africa.
 
-
+In the US, they call it "lady's fingers".
 
 ##### Me
-ところで、お酒はどんなのがあるの？
+Really?
+Why do they call it like that?
 
 
 ##### Katie
+I'm not sure but I guess it's because okura looks like lady's fingers.
+
+
+##### Me
+That's intreating!
+It doesn't look like lady's fingers to me.
+
+
+##### Katie
+I suppose Japanese okura is short and stubby so it's less convincing.
+When I saw okura in Kenya, I saw where the name was coming from.
+
+
+##### Me
+I wonder if there are different species.
+
+By the way, did you try any local alcohol?
+
+
+##### Katie
+Yes! I had some local beers but I didn't try any local spirits.
+
 d03  
 ![x](assets/d03.jpg)  
 
 d01  
 ![x](assets/d01.jpg)  
 
+I preferred "Tusker" because "White cap" was too light.
 
 ##### Me
+That's good!
+
+Is there any difference from British beer?
+
+##### Katie
+Yes I guess.
+
+Kenyan beer was more refreshing and lighter in general.
+
+It was perfect for the hot weather in Kenya.
+
+##### Me
+I didn't expect that!
+I don't know why but I assumed that the food and drinks in Africa would have strong taste.
+
+But, it makes sense that you want to drink something light in a hot climate.
 
 
 ##### Katie
-デザート系は、こんな感じ
+Talking about cold drinks, I also had this fresh orange juice.
 
 d02  
 ![x](assets/d02.jpg)  
 
 
+I think the pink part of this was fresh guava.
+
+
+##### Me
+It looks tasty.
+
+I can imagine that there are many fresh fruits in Africa.
+
+By the way, did you have any dessert?
+
+
+##### Katie
+I didn't take many photos of desserts but this was my favorite cake from a cafe called Java House.
+
 c01  
 ![x](assets/c01.jpg)  
 
 
+##### Me
+Good!
+
+What was the flavor?
+
 
 ##### Katie
+It was salted caramel.
 
-r02  
-![x](assets/r02.jpg)  
+This might has been the best cake I have ever had!
 
+
+##### Me
+Goooood!
+
+Thank you for telling me about many variety of Kenyan local food.
+
+When you go to other countries, please tell me about it again.
+
+
+##### Katie
+Sure!
 
 _________________________________________________________
 
@@ -220,6 +295,10 @@ _________________________________________________________
 飲み物  
 デザート  
 音楽  
+
+r02  
+![x](assets/r02.jpg)  
+
 
 
 r01  
@@ -255,3 +334,8 @@ calamari
 I didn't expect that!  
 以外だね。（予想外だったね）  
 
+
+
+spirit
+度数の高い酒
+（「蒸溜酒」という意味もあるみたい。地域による？）
